@@ -1,0 +1,6 @@
+main {
+   border: 1px solid red;
+   width: 100%;
+   max-width: 75rem;
+   max-height: 100vh;
+}

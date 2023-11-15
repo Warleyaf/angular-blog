@@ -1,3 +1,41 @@
-p{
+header {
+   display: flex;
+   align-items: center;
+
+}
+
+header .logo {
    color: white;
+   font-size: 2rem;
+}
+
+nav {
+   /*border: 1px solid blue;*/
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+}
+
+.menu-bar ul {
+   display: flex;
+   gap: 6rem;
+   
+}
+.menu-bar ul li {
+   list-style: none;
+   
+}
+
+.menu-bar ul li a {
+   /*border: 1px solid red;*/
+   padding: 5px;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-weight: 500;
+   transition: color 0.2s;
+}
+
+.menu-bar ul li a:hover {
+   color: rgb(77, 118, 155);
 }
